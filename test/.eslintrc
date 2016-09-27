@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "tough/config/test"
+  ],
+  "rules": {
+    "promise/always-return": 0
+  }
+}
