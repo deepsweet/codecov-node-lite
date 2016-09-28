@@ -20,7 +20,7 @@
   "dependencies": {
     "array-find": "^1.0.0",
     "makethen": "^0.1.0",
-    "request": "^2.75.0"
+    "request-promise-native": "^1.0.3"
   },
   "devDependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
