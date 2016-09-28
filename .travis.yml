@@ -12,7 +12,6 @@ node_js:
 branches:
   only:
     - master
-    - temp
     - /^greenkeeper-.*$/
 
 matrix:

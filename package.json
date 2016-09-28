@@ -1,8 +1,11 @@
 {
   "name": "codecov-lite",
   "version": "0.1.0",
-  "description": "",
+  "description": "LCOV uploader for codecov.io service",
   "keywords": [
+    "coverage",
+    "codecov",
+    "lcov"
   ],
   "homepage": "https://github.com/deepsweet/codecov-node-lite",
   "repository": "deepsweet/codecov-node-lite",
