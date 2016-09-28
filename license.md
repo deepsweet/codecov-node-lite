@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) 2014 Gregg Caines<
+Copyright (c) 2014 Gregg Caines
 
 Copyright (c) 2016–present Kir Belevich
 
