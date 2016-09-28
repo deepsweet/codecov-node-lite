@@ -5,7 +5,7 @@
 [![coverage](https://img.shields.io/codecov/c/github/deepsweet/codecov-node-lite/master.svg?style=flat-square)](https://codecov.io/github/deepsweet/codecov-node-lite)
 [![deps](https://img.shields.io/gemnasium/deepsweet/codecov-node-lite.svg?style=flat-square)](https://gemnasium.com/deepsweet/codecov-node-lite)
 
-Fork of [codecov.io](https://github.com/cainus/codecov.io) + [codecov-node](https://github.com/codecov/codecov-node) synced with [codecov-bash](https://github.com/codecov/codecov-bash).
+LCOV (code coverage data) uploader for [codecov.io](https://codecov.io/) service. Fork of [codecov.io](https://github.com/cainus/codecov.io) + [codecov-node](https://github.com/codecov/codecov-node) synced with [codecov-bash](https://github.com/codecov/codecov-bash).
 
 * no [execSync](https://github.com/codecov/codecov-node/issues/8)
 * sync/async services configs
