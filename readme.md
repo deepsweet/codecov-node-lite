@@ -7,11 +7,32 @@
 
 LCOV (code coverage data) uploader for [codecov.io](https://codecov.io/) service. Fork of [codecov.io](https://github.com/cainus/codecov.io) + [codecov-node](https://github.com/codecov/codecov-node) synced with [codecov-bash](https://github.com/codecov/codecov-bash).
 
+## Features and caveats
+
 * [no](https://github.com/codecov/codecov-node/issues/8) [execSync](https://github.com/codecov/codecov-node/pull/14)
 * sync/async services configs
 * Promise-based API
 * `stdin`-only CLI
 * no GCOV features
+* no local git
+
+## Supported services:
+
+* [AppVeyor](https://www.appveyor.com/)
+* [Bitrise](https://www.bitrise.io/)
+* [Buildkite](https://buildkite.com/)
+* [CircleCI](https://circleci.com/)
+* [Codeship](https://codeship.com/)
+* [drone.io](https://drone.io/)
+* [GitLab](https://gitlab.com/)
+* [Jenkins](https://jenkins.io/)
+* [Magnum CI](https://magnum-ci.com/)
+* [Semaphore](https://semaphoreci.com/)
+* [Shippable](https://app.shippable.com/)
+* [Snap CI](https://snap-ci.com/)
+* [TeamCity](https://www.jetbrains.com/teamcity/)
+* [Travis CI](https://travis-ci.org/)
+* [Wercker](http://wercker.com/)
 
 ## Install
 
@@ -47,4 +68,5 @@ codecov(data)
 ## TODO
 
 * [ ] [detect if commit is a merge commit](https://github.com/codecov/codecov-node/pull/14#issuecomment-219293709)
+* [ ] support Node.js v0.12 (replace [execa](https://github.com/sindresorhus/execa) with [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn))
 * [ ] more tests
