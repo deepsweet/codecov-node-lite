@@ -7,7 +7,7 @@
 
 LCOV (code coverage data) uploader for [codecov.io](https://codecov.io/) service. Fork of [codecov.io](https://github.com/cainus/codecov.io) + [codecov-node](https://github.com/codecov/codecov-node) synced with [codecov-bash](https://github.com/codecov/codecov-bash).
 
-* no [execSync](https://github.com/codecov/codecov-node/issues/8)
+* [no](https://github.com/codecov/codecov-node/issues/8) [execSync](https://github.com/codecov/codecov-node/pull/14)
 * sync/async services configs
 * Promise-based API
 * `stdin`-only CLI
