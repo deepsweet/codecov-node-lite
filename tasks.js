@@ -66,7 +66,7 @@ export const coverage = () => start(
 );
 
 export const ci = () => start(
-    lint,
+    // lint,
     coverage,
     files('coverage/lcov.info'),
     read(),

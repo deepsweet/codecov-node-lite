@@ -15,6 +15,7 @@ LCOV (code coverage data) uploader for [codecov.io](https://codecov.io/) service
 * `stdin`-only CLI
 * no GCOV features
 * no local git
+* Node.js >= 0.12
 
 ## Supported services:
 
@@ -68,5 +69,5 @@ codecov(data)
 ## TODO
 
 * [ ] [detect if commit is a merge commit](https://github.com/codecov/codecov-node/pull/14#issuecomment-219293709)
-* [ ] support Node.js v0.12 (replace [execa](https://github.com/sindresorhus/execa) with [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn))
+* [x] support Node.js v0.12
 * [ ] more tests
