@@ -6,7 +6,6 @@ import { TEnv } from './types'
 
 const endpoint = 'https://codecov.io/upload/v4'
 const postOptions: RequestOptions = {
-  method: 'POST',
   headers: {
     'Content-Type': 'text/plain',
     Accept: 'text/plain'
@@ -14,9 +13,8 @@ const postOptions: RequestOptions = {
   body: ''
 }
 const putOptions: RequestOptions = {
-  method: 'PUT',
   headers: {
-    'Content-Type': 'plain/text',
+    'Content-Type': 'text/plain',
     'x-amz-acl': 'public-read'
   }
 }
