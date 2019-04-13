@@ -32,9 +32,7 @@ LCOV (code coverage data) uploader for [codecov.io](https://codecov.io/) service
 ## Install
 
 ```sh
-$ yarn add codecov-lite
-# or
-$ npm install codecov-lite
+$ yarn add --dev codecov-lite
 ```
 
 ## Usage
