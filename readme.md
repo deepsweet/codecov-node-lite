@@ -8,6 +8,7 @@ LCOV (code coverage data) uploader for [codecov.io](https://codecov.io/) service
 
 * no CLI
 * no local Git
+* no GCOV features
 * Promise-based API
 
 ## Supported services
