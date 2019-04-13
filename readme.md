@@ -41,6 +41,6 @@ $ yarn add --dev codecov-lite
 import codecov from 'codecov-lite'
 
 (async () => {
-  const [ reportURL, config ] = await codecov(process.env, 'LCOV DATA')
+  const { reportURL, config } = await codecov(process.env, 'LCOV DATA')
 })()
 ```
