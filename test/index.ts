@@ -29,7 +29,6 @@ test('codecov', async (t) => {
       [
         'https://codecov.io/upload/v4?foo=1&bar=2',
         {
-          method: 'POST',
           headers: {
             'Content-Type': 'text/plain',
             Accept: 'text/plain'
@@ -47,9 +46,8 @@ test('codecov', async (t) => {
       [
         'putURL',
         {
-          method: 'PUT',
           headers: {
-            'Content-Type': 'plain/text',
+            'Content-Type': 'text/plain',
             'x-amz-acl': 'public-read'
           },
           body: 'data'
