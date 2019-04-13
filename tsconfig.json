@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "pretty": true,
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "exclude": ["build/", "coverage/", "node_modules/"]
+}

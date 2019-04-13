@@ -1,6 +1,6 @@
 {
   "name": "codecov-lite",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "LCOV uploader for codecov.io service",
   "keywords": [
     "coverage",
@@ -9,51 +9,36 @@
   ],
   "homepage": "https://github.com/deepsweet/codecov-node-lite",
   "repository": "deepsweet/codecov-node-lite",
-  "author": "Kir Belevich <kir@soulshine.in>",
+  "author": "Kir Belevich <kir@belevi.ch> (https://twitter.com/deepsweet)",
+  "license": "MIT",
   "files": [
     "build/"
   ],
   "main": "build/index.js",
-  "bin": {
-    "codecov": "build/cli.js"
+  "types": "build/index.d.ts",
+  "engines": {
+    "node": ">=8.6.0"
   },
   "dependencies": {
-    "array-find": "^1.0.0",
-    "makethen": "^0.1.0",
-    "request": "^2.79.0",
-    "request-promise-native": "^1.0.3"
+    "@babel/runtime": "^7.4.2",
+    "execa": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
   },
   "devDependencies": {
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-plugin-transform-object-rest-spread": "^6.16.0",
-    "babel-preset-es2015": "^6.14.0",
-    "eslint": "^3.6.0",
-    "eslint-config-tough": "^0.1.2",
-    "husky": "^0.11.8",
-    "start": "^4.0.2",
-    "start-babel": "^2.1.1",
-    "start-babel-cli": "^3.0.0",
-    "start-clean": "^1.0.2",
-    "start-codecov": "^1.0.1",
-    "start-env": "^2.0.0",
-    "start-eslint": "^3.0.0",
-    "start-files": "^1.0.0",
-    "start-istanbul": "^2.1.0",
-    "start-pretty-reporter": "^0.2.6",
-    "start-read": "^0.2.0",
-    "start-tape": "^0.1.3",
-    "start-watch": "^1.0.5",
-    "start-write": "^1.2.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.0"
+    "@deepsweet/eslint-config-node-ts": "^0.2.1",
+    "@deepsweet/start-preset-node-ts-lib": "^0.8.2",
+    "@types/blue-tape": "^0.1.32",
+    "@types/execa": "^0.9.0",
+    "@types/node": "^11.12.2",
+    "@types/request": "^2.48.1",
+    "@types/request-promise-native": "^1.0.15",
+    "blue-tape": "^1.0.0",
+    "mocku": "^0.5.0",
+    "spyfn": "^0.2.0",
+    "typescript": "^3.4.1"
   },
-  "scripts": {
-    "start": "start-runner",
-    "prepush": "npm start prepush",
-    "prepublish": "npm start build"
-  },
-  "engines": {
-    "node": ">=0.12"
-  },
-  "license": "MIT"
+  "eslintConfig": {
+    "extends": "@deepsweet/eslint-config-node-ts"
+  }
 }
