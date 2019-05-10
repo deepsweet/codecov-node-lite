@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/codecov-lite.svg?style=flat-square)](https://www.npmjs.com/package/codecov-lite)
 [![tests](https://img.shields.io/travis/deepsweet/codecov-node-lite/master.svg?label=tests&style=flat-square)](https://travis-ci.org/deepsweet/codecov-node-lite)
-[![coverage](https://img.shields.io/codecov/c/github/deepsweet/codecov-node-lite/master.svg?style=flat-square)](https://codecov.io/github/deepsweet/codecov-node-lite)
+[![coverage](https://img.shields.io/codecov/c/github/deepsweet/codecov-node-lite/master.svg?style=flat-square)](https://codecov.io/github/deepsweet/codecov-node-lite) [![Greenkeeper badge](https://badges.greenkeeper.io/deepsweet/codecov-node-lite.svg)](https://greenkeeper.io/)
 
 LCOV (code coverage data) uploader for [codecov.io](https://codecov.io/) service. Synced with [codecov-node](https://github.com/codecov/codecov-node) and [codecov-bash](https://github.com/codecov/codecov-bash).
 
